@@ -1,12 +1,10 @@
-import React from 'react'
+
 import { useTodos } from '../store/todos'
 
 
 const Todos = () => {
     const {todos, toggleTodoAsCompleted,handleDeleteTodo  } = useTodos()
     let filterData = todos; 
-
-    
 
   return (
     <ul>
